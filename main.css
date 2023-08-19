@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+.container{
+    position: relative;
+
+}
+.ekran{
+    position: absolute;
+    top: 57px;
+    left: 90px;
+    width: 115px;
+    height: 57px;
+    background-color: rgb(5,182,14);
+    border: none;
+    font-size: 55px;
+    text-align: center;
+    caret-color:rgb(5,182,14) ;
+}
+.button{
+    position: absolute;
+    top: 157px;
+    left: 108px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color:rgb(201,200,200);
+    border: none;
+
+}
+.button:active{
+
+
+    background-color:gray;
+}
+.dalete:active{
+
+    background-color:gray;
+}
+.dalete{
+    position: absolute;
+    top: 124px;
+    left: 185px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color:rgb(201,200,200);
+    border: none;
+}
